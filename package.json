@@ -1,5 +1,5 @@
 {
-  "name": "mint_subdid",
+  "name": "mint-subdid-webapp",
   "version": "1.0.0",
   "scripts": {
     "predev": "npm run i18n",
@@ -7,7 +7,7 @@
     "prebuild": "npm run i18n",
     "build": "nuxt build",
     "start": "nuxt start",
-    "reload_production": "pm2 reload ecosystem.config.js --only mint_subdid",
+    "reload_production": "pm2 reload ecosystem.config.js --only mint-subdid-webapp",
     "generate": "nuxt generate",
     "analyze": "nuxt build --analyze",
     "i18n": "i18n-abc scan && i18n-abc transform",

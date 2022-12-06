@@ -1,4 +1,4 @@
-# Mint SubDID
+# mint-subdid-webapp
 
 #### dev
 ``` bash
