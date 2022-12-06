@@ -1,0 +1,73 @@
+// font
+@font-face {
+  font-family: "Barlow-Medium";
+  src: url('/fonts/Barlow-Medium.ttf');
+}
+@font-face {
+  font-family: Emoji;
+  src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
+  unicode-range: U+1F000-1F644, U+203C-3299;
+}
+$body-font-family: system-ui, —apple-system, Segoe UI, Rototo, Emoji, Helvetica, Arial, sans-serif;
+$barlow-medium: "Barlow-Medium";
+$monospace-font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+// layout breakpoint
+$screen_sm: 540px; // secondary
+$screen_md: 768px; // primary
+$screen_lg: 1024px;
+$screen_xl: 1168px; // primary
+
+// main color
+$white: #FFFFFF;
+$background: #F9FBFC;
+$primary-color: #2471FE;
+$primary-hover-color: #226CF2;
+$normal-color: rgba(82, 98, 121, 0.1);
+$normal-hover-color: rgba(82, 98, 121, 0.2);
+$success-color: #22C493;
+$success-hover-color: #1EAE82;
+$error-color: #FF6B6B;
+$error-hover-color: #E05656;
+$disabled-color: #A0A1AB;
+$assist-color: #11142D;
+$input-border-color: #F7F7F7;
+$input-bg-color: #F7F7F7;
+$input-focus-border-color: #22C493;
+$input-focus-bg-color: #FFFFFF;
+$container-border-color: rgba(182, 196, 217, 0.4);
+
+// font color
+$primary-font-color: #121314;
+$tips-font-color: #31333E;
+$assist-font-color: #5F6570;
+$third-font-color: #B0B8BF;
+$success-font-color: #22C493;
+$link-font-color: #3E66B3;
+$link-hover-font-color: rgba(61, 102, 179, 0.7);
+$error-font-color: #E05656;
+$warn-font-color: #FFA800;
+
+// font size
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-24: 24px;
+$font-size-36: 36px;
+
+// layout
+$pc-layout-container-min-height: calc(100vh - 104px);
+$pc-layout-container-box-shadow: 0 6px 8px 0 rgba(223, 231, 227, 0.86);
+$pc-layout-container-width: 532px;
+
+// container
+$container-outer-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04);
+$container-border: 1px solid $container-border-color;
+$option-outer-box-shadow: 0px 8px 10px 0 rgba(0, 0, 0, 0.05);
+
+// divider
+$divider-color: rgba(190, 192, 194, 0.16);
+
+// split line
+$split-line: 1px #979797 dashed;
